@@ -1,3 +1,73 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+
 body {
     margin: 0;
+    background-color: #F4F4F4;
+    text-align: center;
+    font-family: "Inter", sans-serif;
 }
+
+#input-field::placeholder {
+    color: #F4F4F4;
+}
+
+#input-field {
+    color: #F4F4F4;
+    border: 1px solid #F4F4F4;
+    border-radius: 5px;
+    background-color: #6943FF;
+}
+
+#convert-btn {
+    margin-bottom: 20px;
+    color: #3D3D3D;
+    font-style: inherit;
+    height: 42px;
+    width: 117px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+#title-units {
+    color: white;
+}
+
+#top-body {
+    background-color: #6943FF;
+}
+
+.unit-convertor {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #5A537B;
+
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 20px 40px;
+    width: 500px;
+    height: 108px;
+    border: none;
+
+}
+
+#dark-mode {
+    background-color: #6943FF;
+    border: 1px solid white;
+    color: #F4F4F4;
+    font-family: inherit;
+}
+
+/* font to be used for text nested inside the conversion #353535 - It is also size 14 font */
