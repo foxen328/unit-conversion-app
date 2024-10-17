@@ -36,7 +36,7 @@ convertBtn.addEventListener("click", function () {
 })
 
 function length() {
-  let inputNumber = document.getElementById("input-field").value;
+  let inputNumber = Number(document.getElementById("input-field").value)
   let metersToFeet = inputNumber * feet
   let feetToMeters = inputNumber / feet
   let contents = `${inputNumber} meters = ${metersToFeet.toFixed(3)} feet | ${inputNumber} feet = ${feetToMeters.toFixed(3)} meters`
@@ -44,7 +44,7 @@ function length() {
 }
 
 function volume() {
-  let inputNumber = document.getElementById("input-field").value;
+  let inputNumber = Number(document.getElementById("input-field").value)
   let kilosToPounds = inputNumber * pound
   let poundsToKilos = inputNumber / pound
   let contents = `${inputNumber} kilos = ${kilosToPounds.toFixed(3)} pounds | ${inputNumber} pounds = ${poundsToKilos.toFixed(3)} kilos`
@@ -52,7 +52,7 @@ function volume() {
 }
 
 function mass() {
-  let inputNumber = document.getElementById("input-field").value;
+  let inputNumber = Number(document.getElementById("input-field").value)
   let kilosToPounds = inputNumber * pound
   let poundsToKilos = inputNumber / pound
   let contents = `${inputNumber} kilos = ${kilosToPounds.toFixed(3)} pounds | ${inputNumber} pounds = ${poundsToKilos.toFixed(3)} kilos`
