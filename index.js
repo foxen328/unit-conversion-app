@@ -60,11 +60,6 @@ function mass() {
 }
 
 
-//Flow chat of what I want to do
-// So essentially, I want to store the value from the input field (done)
-
-//From there, we want to create conversions below first before we doing anything else
-
 
 // darkMode.addEventListener("click", function () {
 
